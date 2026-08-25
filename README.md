@@ -41,17 +41,29 @@ CampusFix is a campus complaint management system built with React. It allows st
 The complaint follows this basic flow:
 
 Student raises complaint
+
 ↓
+
 Complaint is saved
+
 ↓
+
 Admin receives the complaint
+
 ↓
+
 Admin reviews the complaint
+
 ↓
+
 Admin updates the status
+
 ↓
+
 Student receives notification
+
 ↓
+
 Student can track the updated status and admin remarks
 
 ## Technologies Used
