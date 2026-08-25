@@ -1,0 +1,14 @@
+.admin-layout{
+    display:flex;
+}
+
+.admin-content{
+    margin-left:260px;
+    width:calc(100% - 260px);
+    min-height:100vh;
+    background:linear-gradient(135deg,#fbf8f3,#fbebd3, #f9e9c8);
+}
+
+.admin-main{
+    padding:0 30px 30px;
+}

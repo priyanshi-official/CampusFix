@@ -1,0 +1,149 @@
+.notifications{
+    width:85%;
+    margin:22px auto;
+}
+
+.notify-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:22px;
+}
+
+.notify-head p{
+    font-size:16px;
+    color:#5c5c5c;
+}
+
+.notify-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:rgba(255,255,255,.7);
+    backdrop-filter:blur(16px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#C8922E;
+    font-size:22px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.notify-card{
+    background:rgba(255,255,255,.72);
+    backdrop-filter:blur(18px);
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 12px 28px rgba(0,0,0,.08);
+}
+
+.notify-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 28px;
+    border-bottom:1px solid rgba(0,0,0,.05);
+    transition:.25s;
+}
+
+.notify-item:last-child{
+    border-bottom:none;
+}
+
+.notify-item:hover{
+    background:rgba(255,255,255,.5);
+}
+
+.notify-left{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.notify-status{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
+.accepted .notify-status{
+    background:#ffeaea;
+    color:#ef4444;
+}
+
+.progress .notify-status{
+    background:#e9f3ff;
+    color:#2d8cff;
+}
+
+.resolved .notify-status{
+    background:#e8f8ec;
+    color:#20a34a;
+}
+
+.rejected .notify-status{
+    background:#ffeaea;
+    color:#ef4444;
+}
+
+.submitted .notify-status{
+    background:#fff4d9;
+    color:#C8922E;
+}
+
+.notify-dot.submitted{
+    background:#C8922E;
+}
+
+.notify-content p{
+    font-size:16px;
+    color:#333;
+    margin-bottom:5px;
+}
+
+.notify-content span{
+    font-size:13px;
+    color:#888;
+}
+
+.notify-dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+
+
+/* Empty state */
+.empty-notifications{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.empty-notifications svg{
+    font-size:70px;
+    color:#C8922E;
+    margin-bottom:18px;
+    opacity:.9;
+}
+
+.empty-notifications h3{
+    font-size:26px;
+    color:#333;
+    margin-bottom:8px;
+}
+
+.empty-notifications p{
+    font-size:15px;
+    color:#777;
+    max-width:320px;
+    line-height:24px;
+}
+

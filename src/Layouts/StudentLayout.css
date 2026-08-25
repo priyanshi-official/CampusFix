@@ -1,0 +1,16 @@
+.layout{
+    display:flex;
+}
+
+.content{
+    margin-left:260px;
+    width:calc(100% - 260px);
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#fbf8f3,#fbebd3, #f9e9c8
+    );
+}
+
+.main{
+    padding:0 30px 30px;
+}
