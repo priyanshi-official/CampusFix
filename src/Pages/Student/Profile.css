@@ -187,3 +187,150 @@
 .logout-btn:hover{
     background:#dc2626;
 }
+
+
+@media (max-width: 768px) {
+  .profile {
+    width: 92%;
+    margin: 20px auto;
+  }
+  .profile-content {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .profile-left {
+    width: 100%;
+    flex-direction: row;
+    align-items:stretch;
+  }
+  .profile-banner-card {
+    flex: 1;
+    padding: 22px;
+    border-radius: 18px;
+  }
+  .profile-banner-card h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .profile-banner-card p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .profile-photo-card {
+    flex: 1;
+    padding: 22px 18px;
+    border-radius: 18px;
+  }
+  .profile-photo {
+    font-size: 100px;
+    margin-bottom: 12px;
+  }
+  .upload-btn {
+    height: 44px;
+    font-size: 15px;
+  }
+  .profile-file {
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .profile-details {
+    width: 100%;
+    gap: 15px;
+  }
+  .profile-card {
+    padding: 22px;
+    border-radius: 18px;
+  }
+  .profile-card h3 {
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  .profile-grid {
+    gap: 15px 18px;
+  }
+  .profile-field label {
+    font-size: 15px;
+  }
+  .profile-field input {
+    height: 44px;
+    padding: 0 13px;
+    font-size: 14px;
+  }
+  .save-btn,
+  .logout-btn {
+    width: 170px;
+    height: 46px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    width: 94%;
+    margin: 15px auto;
+  }
+  .profile-content {
+    gap: 14px;
+  }
+  .profile-left {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .profile-banner-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .profile-banner-card h2 {
+    font-size: 28px;
+  }
+  .profile-banner-card p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .profile-photo-card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+  .profile-photo {
+    font-size: 85px;
+  }
+  .upload-btn {
+    height: 42px;
+    font-size: 14px;
+  }
+  .profile-file {
+    font-size: 12px;
+  }
+  .profile-card {
+    padding: 18px;
+    border-radius: 16px;
+  }
+  .profile-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+  .full-width {
+    grid-column: auto;
+  }
+  .profile-field label {
+    font-size: 14px;
+  }
+  .profile-field input {
+    height: 42px;
+    font-size: 13px;
+  }
+  .profile-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .save-btn,
+  .logout-btn {
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+  }
+}

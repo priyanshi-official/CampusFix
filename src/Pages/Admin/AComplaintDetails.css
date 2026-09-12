@@ -162,3 +162,129 @@
 .update-btn:hover{
     background:#b68222;
 }
+
+
+@media (max-width: 768px) {
+  .admin-details {
+    padding: 20px 18px;
+  }
+
+  .details-wrapper {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .details-left,
+  .details-right {
+    padding: 18px 20px;
+    border-radius: 18px;
+  }
+
+  .details-left h2,
+  .details-right h2 {
+    font-size: 20px;
+  }
+
+  .detail-row {
+    grid-template-columns: 120px 1fr;
+    padding: 12px 0;
+  }
+
+  .detail-row span {
+    font-size: 13px;
+  }
+
+  .detail-row p {
+    font-size: 14px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .file-box {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .details-right textarea {
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-details {
+    padding: 15px 12px;
+  }
+
+  .details-path a {
+    font-size: 13px;
+  }
+
+  .details-left,
+  .details-right {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .details-left h2,
+  .details-right h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .detail-row {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 11px 0;
+  }
+
+  .detail-row span {
+    font-size: 12px;
+  }
+
+  .detail-row p {
+    font-size: 13px;
+  }
+
+  .description {
+    margin-top: 15px;
+  }
+
+  .description span,
+  .attachment span {
+    font-size: 13px;
+  }
+
+  .description p {
+    font-size: 13px;
+  }
+
+  .attachment {
+    margin-top: 20px;
+  }
+
+  .file-box {
+    font-size: 13px;
+    padding: 9px 12px;
+  }
+
+  .details-right label {
+    font-size: 13px;
+  }
+
+  .details-right select {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .details-right textarea {
+    height: 110px;
+    font-size: 13px;
+  }
+
+  .update-btn {
+    height: 44px;
+    font-size: 14px;
+  }
+}

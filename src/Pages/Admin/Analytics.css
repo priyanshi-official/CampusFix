@@ -96,3 +96,112 @@
     font-size:18px;
     font-weight:500;
 }
+
+
+@media (max-width: 768px) {
+  .analytics {
+    padding: 20px 18px;
+  }
+
+  .analytics-path {
+    gap: 7px;
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+
+  .analytics-head {
+    margin-bottom: 22px;
+  }
+
+  .analytics-head p {
+    font-size: 14px;
+  }
+
+  .analytics-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 22px;
+  }
+
+  .analytics-card {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .analytics-card h3 {
+    font-size: 28px;
+    margin-bottom: 7px;
+  }
+
+  .analytics-card p {
+    font-size: 14px;
+  }
+
+  .chart-card {
+    padding: 18px;
+    border-radius: 18px;
+    margin-bottom: 22px;
+  }
+
+  .chart-card h2 {
+    font-size: 21px;
+    margin-bottom: 18px;
+  }
+
+  .chart-placeholder {
+    height: 220px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .analytics {
+    padding: 15px 12px;
+  }
+
+  .analytics-path {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .analytics-head {
+    margin-bottom: 18px;
+  }
+
+  .analytics-head p {
+    font-size: 13px;
+  }
+
+  .analytics-cards {
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .analytics-card {
+    padding: 16px 14px;
+    border-radius: 16px;
+  }
+
+  .analytics-card h3 {
+    font-size: 24px;
+  }
+
+  .analytics-card p {
+    font-size: 12px;
+  }
+
+  .chart-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .chart-card h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .chart-placeholder {
+    height: 180px;
+    font-size: 14px;
+  }
+}

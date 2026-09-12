@@ -1,105 +1,3 @@
-/* .sidebar{
-    width:260px;
-    height:100vh;
-    background:#20242f;
-    position:fixed;
-    left:0;
-    top:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    padding:25px 18px;
-    box-sizing:border-box;
-}
-
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    margin-top:8px;
-}
-
-.logo img{
-    width:60px;
-    margin-left: -10px;
-}
-
-.logo h2{
-    font-size:28px;
-    color:#fff;
-    font-weight:700;
-
-}
-
-.logo span{
-    color:#C8922E;
-}
-
-
-.admin-menu{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-    margin-top:50px;
-    flex:1;
-    
-}
-
-.items{
-    display:flex;
-    align-items:center;
-    gap:16px;
-    height:52px;
-    padding:0 20px;
-    border-radius:14px;
-    text-decoration:none;
-    color:#fff;
-    font-size:18px;
-    font-weight:500;
-    transition:.25s;
-}
-
-.items svg{
-    font-size:20px;
-}
-
-.items:hover{
-    background:rgba(255,255,255,.08);
-}
-
-.items.active{
-    background:#C8922E;
-    color:#fff;
-    box-shadow:0 10px 25px rgba(200,146,46,.35);
-}
-
-.admin-bottom{
-    border-top:1px solid rgba(255,255,255,.08);
-    padding-top:24px;
-}
-
-.logout{
-    width:100%;
-    height:54px;
-    border:none;
-    border-radius:16px;
-    background:#f44343;
-    color:#fff;
-    font-size:18px;
-    font-weight:600;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
-    cursor:pointer;
-    transition:.25s;
-}
-
-.logout:hover{
-    background:#dc2626;
-} */
-
-
 .sidebar{
     width:260px;
     height:100vh;
@@ -207,4 +105,62 @@
 
 .logout:hover{
     background:#C8922E;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 75px;
+    padding: 20px 10px;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .logo img {
+    width: 50px;
+    margin-right: 0;
+  }
+  .logo h2 {
+    display: none;
+  }
+  .admin-menu {
+    margin-top: 35px;
+    gap: 8px;
+  }
+  .items {
+    justify-content: center;
+    gap: 0;
+    padding: 13px 10px;
+  }
+  .items span {
+    display: none;
+  }
+  .items svg {
+    font-size: 20px;
+  }
+  .admin-bottom {
+    padding-top: 15px;
+  }
+  .logout {
+    padding: 11px;
+  }
+  .logout span {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 65px;
+    padding: 18px 8px;
+  }
+  .logo img {
+    width: 45px;
+  }
+  .items {
+    padding: 12px 8px;
+  }
+  .items svg {
+    font-size: 18px;
+  }
 }

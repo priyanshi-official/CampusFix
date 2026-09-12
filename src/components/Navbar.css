@@ -117,3 +117,51 @@
   box-shadow: 0 10px 20px rgba(200, 146, 46, 0.2);
 }
 
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 92%;
+    height: auto;
+    min-height: 65px;
+    padding: 0 18px;
+    top: 12px;
+  }
+  .logo-section img {
+    width: 65px;
+    height: 85px;
+  }
+  .logo-section h2 {
+    font-size: 21px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-btns {
+    gap: 8px;
+  }
+  .login-btn,
+  .signup-btn {
+    padding: 8px 13px;
+    font-size: 13px;
+    border-radius: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 90%;
+    padding: 0 14px;
+  }
+  .logo-section img {
+    width: 55px;
+    height: 70px;
+  }
+  .logo-section h2 {
+    font-size: 18px;
+  }
+  .login-btn,
+  .signup-btn {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+}

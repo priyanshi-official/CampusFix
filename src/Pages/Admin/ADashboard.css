@@ -298,3 +298,276 @@
     background:#DDF7E6;
     color:#1F8A4C;
 }
+
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 20px 18px;
+  }
+
+  .admin-banner {
+    padding: 18px 22px;
+    gap: 16px;
+  }
+
+  .admin-banner-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+
+  .admin-banner h2 {
+    font-size: 21px;
+    margin-bottom: 6px;
+  }
+
+  .admin-banner p {
+    font-size: 14px;
+  }
+
+  .admin-cards {
+    margin-top: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .admin-card {
+    padding: 12px;
+    gap: 12px;
+    border-radius: 18px;
+  }
+
+  .admin-card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    font-size: 21px;
+    flex-shrink: 0;
+  }
+
+  .admin-card h2 {
+    font-size: 24px;
+  }
+
+  .admin-card p {
+    font-size: 13px;
+  }
+
+  .admin-bottom-section {
+    margin-top: 22px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .admin-chart-card,
+  .recent-card {
+    padding: 18px 20px;
+    border-radius: 18px;
+  }
+
+  .admin-chart-card h2,
+  .recent-card h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .chart-content {
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .fake-chart {
+    width: 145px;
+    height: 145px;
+    flex-shrink: 0;
+  }
+
+  .fake-chart::after {
+    width: 76px;
+    height: 76px;
+  }
+
+  .chart-legend {
+    gap: 14px;
+  }
+
+  .chart-legend div {
+    font-size: 14px;
+    gap: 9px;
+  }
+
+  .recent-empty {
+    height: 190px;
+  }
+
+  .empty-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .recent-empty h3 {
+    font-size: 20px;
+  }
+
+  .recent-empty p {
+    font-size: 14px;
+  }
+
+  .recent-item {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+
+  .recent-item h4 {
+    font-size: 15px;
+  }
+
+  .recent-item p {
+    font-size: 13px;
+  }
+
+  .pending-badge,
+  .progress-badge,
+  .resolved-badge {
+    padding: 5px 10px;
+    font-size: 11px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-dashboard {
+    padding: 15px 12px;
+  }
+
+  .admin-banner {
+    padding: 16px;
+    gap: 12px;
+    border-radius: 18px;
+  }
+
+  .admin-banner-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+  }
+
+  .admin-banner h2 {
+    font-size: 18px;
+  }
+
+  .admin-banner p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .admin-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .admin-card {
+    padding: 10px;
+    gap: 9px;
+    border-radius: 15px;
+  }
+
+  .admin-card-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+
+  .admin-card h2 {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .admin-card p {
+    font-size: 11px;
+  }
+
+  .admin-bottom-section {
+    margin-top: 18px;
+    gap: 15px;
+  }
+
+  .admin-chart-card,
+  .recent-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .admin-chart-card h2,
+  .recent-card h2 {
+    font-size: 18px;
+  }
+
+  .chart-content {
+    gap: 18px;
+  }
+
+  .fake-chart {
+    width: 115px;
+    height: 115px;
+  }
+
+  .fake-chart::after {
+    width: 60px;
+    height: 60px;
+  }
+
+  .chart-legend {
+    gap: 11px;
+  }
+
+  .chart-legend div {
+    font-size: 12px;
+    gap: 7px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .recent-empty {
+    height: 170px;
+  }
+
+  .empty-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .recent-empty h3 {
+    font-size: 18px;
+  }
+
+  .recent-empty p {
+    font-size: 13px;
+  }
+
+  .recent-item {
+    padding: 11px 12px;
+  }
+
+  .recent-item h4 {
+    font-size: 13px;
+  }
+
+  .recent-item p {
+    font-size: 11px;
+  }
+
+  .pending-badge,
+  .progress-badge,
+  .resolved-badge {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+}

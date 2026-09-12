@@ -163,3 +163,83 @@
     color:#C8922E;
     font-weight:600;
 }
+
+
+@media (max-width: 768px) {
+  .signup-page {
+    padding: 105px 15px 40px;
+  }
+  .signup-card {
+    max-width: 420px;
+    padding: 15px 28px;
+    border-radius: 22px;
+  }
+  .signup-logo {
+    width: 65px;
+  }
+  .signup-card h2 {
+    font-size: 26px;
+  }
+  .signup-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .input-box {
+    height: 48px;
+    padding: 0 14px;
+  }
+  .input-icon {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .input-box input {
+    font-size: 14px;
+  }
+  .role {
+    margin: 15px 0;
+  }
+  .role-btns {
+    gap: 10px;
+  }
+  .role-btns button {
+    height: 40px;
+    font-size: 14px;
+    gap: 7px;
+  }
+  .signup-btn2 {
+    height: 44px;
+    font-size: 16px;
+  }
+  .login-link {
+    margin-top: 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-page {
+    padding: 95px 12px 30px;
+  }
+  .signup-card {
+    padding: 12px 20px;
+    border-radius: 20px;
+  }
+  .signup-logo {
+    width: 60px;
+  }
+  .signup-card h2 {
+    font-size: 23px;
+  }
+  .signup-text {
+    font-size: 13px;
+  }
+  .input-box {
+    height: 46px;
+  }
+  .role-btns button {
+    font-size: 13px;
+  }
+  .signup-btn2 {
+    font-size: 15px;
+  }
+}

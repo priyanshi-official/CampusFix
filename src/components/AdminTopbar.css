@@ -105,3 +105,66 @@
     color:#777;
     margin-top:2px;
 }
+
+
+@media (max-width: 768px) {
+  .admin-topbar {
+    height: 70px;
+    padding: 0 18px;
+  }
+  .admin-page-title {
+    font-size: 22px;
+  }
+  .admin-top-right {
+    gap: 10px;
+  }
+  .admin-notify {
+    width: 40px;
+    height: 40px;
+  }
+  .admin-notify svg {
+    font-size: 16px;
+  }
+  .admin-notify span {
+    min-width: 18px;
+    height: 18px;
+    font-size: 10px;
+    padding: 0 4px;
+  }
+  .admin-profile {
+    gap: 0;
+    padding: 6px;
+  }
+  .admin-avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  .admin-info {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-topbar {
+    padding: 0 12px;
+  }
+  .admin-page-title {
+    font-size: 19px;
+  }
+  .admin-top-right {
+    gap: 7px;
+  }
+  .admin-notify {
+    width: 36px;
+    height: 36px;
+  }
+  .admin-profile {
+    padding: 5px;
+  }
+  .admin-avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 15px;
+  }
+}

@@ -174,3 +174,53 @@
     color:#C8922E;
     font-weight:600;
 }
+
+@media (max-width:768px){
+    .login-page{
+        padding:100px 15px 40px;
+    }
+    .login-card{
+        max-width:100%;
+        padding:15px 25px;
+        border-radius:22px;
+    }
+    .login-card h2{
+        font-size:26px;
+    }
+    .login-text{
+        font-size:14px;
+    }
+    .role{
+        margin:22px 0;
+    }
+    .role-btns{
+        gap:10px;
+    }
+    .role-btns button{
+        font-size:14px;
+    }
+}
+@media (max-width:480px){
+    .login-page{
+        padding:90px 12px 30px;
+    }
+    .login-card{
+        padding:15px 18px;
+    }
+    .login-card h2{
+        font-size:24px;
+    }
+    .login-logo{
+        width:65px;
+    }
+    .input-box{
+        height:48px;
+        padding:0 14px;
+    }
+    .role-btns{
+        flex-direction:column;
+    }
+    .role-btns button{
+        height:44px;
+    }
+}

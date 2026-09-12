@@ -5,38 +5,6 @@
     background:linear-gradient(135deg,#fbf8f3 ,#fbebd3 ,#f9e9c8 );
 }
 
-/* .bg-circle{
-    position:absolute;
-    border-radius:50%;
-    filter:blur(60px);
-    opacity:.35;
-    z-index:0;
-}
-
-.circle-1{
-    width:280px;
-    height:280px;
-    background:#f4c671;
-    top:80px;
-    left:-80px;
-}
-
-.circle-2{
-    width:220px;
-    height:220px;
-    background:#96938c;
-    top:200px;
-    right:-60px;
-}
-
-.circle-3{
-    width:180px;
-    height:180px;
-    background:#40403e;
-    bottom:60px;
-    left:45%;
-} */
-
 .hero{
     position:relative;
     z-index:2;
@@ -578,3 +546,232 @@
 }
 
 
+@media (max-width: 768px) {
+  .hero {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: auto;
+    padding-top: 110px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero-left {
+    width: 100%;
+    text-align: center;
+  }
+  .badge {
+    padding: 9px 16px;
+    font-size: 13px;
+  }
+  .hero-left h1 {
+    font-size: 40px;
+    margin-bottom: 18px;
+  }
+  .hero-left p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+  .hero-buttons {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .primary-btn,
+  .secondary-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+  .hero-features {
+    align-items: center;
+    gap: 12px;
+  }
+  .hero-features div {
+    font-size: 14px;
+  }
+  .hero-right {
+    width: 100%;
+    padding-top: 0;
+  }
+  .dashboard-preview {
+    width: 100%;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .dashboard-header {
+    margin-bottom: 18px;
+  }
+  .dashboard-header h3 {
+    font-size: 18px;
+  }
+  .search-box {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .stats-row {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .stat-card {
+    padding: 12px 8px;
+  }
+  .stat-card h2 {
+    font-size: 21px;
+  }
+  .stat-card p {
+    font-size: 11px;
+  }
+  .chart-section {
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .chart {
+    width: 95px;
+    height: 95px;
+    flex-shrink: 0;
+  }
+  .chart::after {
+    width: 52px;
+    height: 52px;
+  }
+  .chart-info {
+    gap: 8px;
+  }
+  .chart-info p {
+    font-size: 12px;
+  }
+  .landing-item span {
+    font-size: 13px;
+  }
+  .pending-badge,
+  .progress-badge,
+  .resolved-badge {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+  .features {
+    width: 88%;
+    margin: 70px auto;
+  }
+  .section-heading {
+    margin-bottom: 35px;
+  }
+  .section-heading h2 {
+    font-size: 32px;
+  }
+  .section-heading p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .features-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .feature-card {
+    padding: 28px 20px;
+  }
+  .feature-card h3 {
+    font-size: 20px;
+  }
+  .feature-card p {
+    font-size: 14px;
+  }
+  .how-it-works {
+    width: 88%;
+    margin: 80px auto;
+  }
+  .steps-container {
+    margin-top: 35px;
+    gap: 20px;
+  }
+  .step-card {
+    width: 100%;
+    max-width: 350px;
+    padding: 28px 20px;
+  }
+  .step-card h3 {
+    font-size: 20px;
+  }
+  .step-card p {
+    font-size: 14px;
+  }
+  .step-arrow {
+    display: none;
+  }
+  .cta-section {
+    width: 88%;
+    margin: 60px auto;
+  }
+  .cta-card {
+    padding: 30px 20px;
+    border-radius: 22px;
+  }
+  .cta-card h2 {
+    font-size: 30px;
+  }
+  .cta-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+  }
+  .cta-buttons {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 100px;
+    gap: 30px;
+  }
+  .hero-left h1 {
+    font-size: 34px;
+  }
+  .hero-left p {
+    font-size: 14px;
+  }
+  .primary-btn,
+  .secondary-btn {
+    padding: 11px 18px;
+    font-size: 13px;
+  }
+  .dashboard-preview {
+    padding: 14px;
+  }
+  .dashboard-header h3 {
+    font-size: 16px;
+  }
+  .search-box {
+    padding: 7px 8px;
+    font-size: 11px;
+  }
+  .stat-card {
+    padding: 10px 5px;
+  }
+  .stat-card h2 {
+    font-size: 18px;
+  }
+  .stat-card p {
+    font-size: 10px;
+  }
+  .chart {
+    width: 80px;
+    height: 80px;
+  }
+  .chart::after {
+    width: 44px;
+    height: 44px;
+  }
+  .chart-info p {
+    font-size: 11px;
+  }
+  .section-heading h2 {
+    font-size: 28px;
+  }
+  .cta-card h2 {
+    font-size: 27px;
+  }
+}

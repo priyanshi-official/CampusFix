@@ -333,3 +333,252 @@
     background:#DDF7E6;
     color:#1F8A4C;
 }
+
+
+@media (max-width: 768px) {
+  .dash {
+    padding: 20px 18px;
+  }
+  .banner {
+    padding: 18px 22px;
+  }
+  .ban-left {
+    gap: 16px;
+  }
+  .ban-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 25px;
+    flex-shrink: 0;
+  }
+  .ban-text h2 {
+    font-size: 21px;
+    margin-bottom: 6px;
+  }
+  .ban-text p {
+    font-size: 14px;
+  }
+  .stats {
+    margin-top: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .stat {
+    padding: 12px;
+    gap: 12px;
+    border-radius: 18px;
+  }
+  .stat-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    font-size: 21px;
+    flex-shrink: 0;
+  }
+  .stat h2 {
+    font-size: 24px;
+  }
+  .stat p {
+    font-size: 13px;
+  }
+  .bottom-sec {
+    margin-top: 22px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .status-box,
+  .recent-box {
+    padding: 18px 20px;
+    border-radius: 18px;
+  }
+  .status-box h3,
+  .recent-box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .status-content {
+    justify-content: center;
+    gap: 35px;
+  }
+  .pie {
+    width: 145px;
+    height: 145px;
+    flex-shrink: 0;
+  }
+  .pie::after {
+    width: 76px;
+    height: 76px;
+  }
+  .pie-center {
+    width: 76px;
+    height: 76px;
+  }
+  .pie-center h3 {
+    font-size: 21px;
+  }
+  .pie-center p {
+    font-size: 11px;
+  }
+  .legend {
+    gap: 14px;
+  }
+  .legend div {
+    font-size: 14px;
+    gap: 9px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+  .recent-empty {
+    height: 190px;
+  }
+  .empty-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+  .recent-empty h4 {
+    font-size: 20px;
+  }
+  .recent-empty p {
+    font-size: 14px;
+  }
+  .recent-item {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+  .recent-item h4 {
+    font-size: 14px;
+  }
+  .recent-item p {
+    font-size: 11px;
+  }
+  .pending-badge,
+  .progress-badge,
+  .resolved-badge {
+    padding: 5px 10px;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .dash {
+    padding: 15px 12px;
+  }
+  .banner {
+    padding: 16px;
+    border-radius: 18px;
+  }
+  .ban-left {
+    gap: 12px;
+  }
+  .ban-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 21px;
+  }
+  .ban-text h2 {
+    font-size: 18px;
+  }
+  .ban-text p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .stats {
+    gap: 10px;
+  }
+  .stat {
+    padding: 10px;
+    gap: 9px;
+    border-radius: 15px;
+  }
+  .stat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+  .stat h2 {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  .stat p {
+    font-size: 11px;
+  }
+  .bottom-sec {
+    margin-top: 18px;
+    gap: 15px;
+  }
+  .status-box,
+  .recent-box {
+    padding: 16px;
+    border-radius: 16px;
+  }
+  .status-box h3,
+  .recent-box h3 {
+    font-size: 18px;
+  }
+  .status-content {
+    gap: 18px;
+  }
+  .pie {
+    width: 115px;
+    height: 115px;
+  }
+  .pie::after {
+    width: 60px;
+    height: 60px;
+  }
+  .pie-center {
+    width: 60px;
+    height: 60px;
+  }
+  .pie-center h3 {
+    font-size: 18px;
+  }
+  .pie-center p {
+    font-size: 9px;
+  }
+  .legend {
+    gap: 11px;
+  }
+  .legend div {
+    font-size: 12px;
+    gap: 7px;
+  }
+  .dot {
+    width: 9px;
+    height: 9px;
+  }
+  .recent-empty {
+    height: 170px;
+  }
+  .empty-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+  .recent-empty h4 {
+    font-size: 18px;
+  }
+  .recent-empty p {
+    font-size: 13px;
+  }
+  .recent-item {
+    padding: 10px 11px;
+  }
+  .recent-item h4 {
+    font-size: 13px;
+  }
+  .recent-item p {
+    font-size: 10px;
+  }
+  .pending-badge,
+  .progress-badge,
+  .resolved-badge {
+    padding: 4px 8px;
+    font-size: 9px;
+  }
+}

@@ -301,3 +301,186 @@
 .Toastify__close-button:hover {
     color: #f0c76d !important;
 }
+
+
+@media (max-width: 768px) {
+  .raise {
+    height: auto;
+    padding: 0 18px 20px;
+  }
+  .raisecomplaint-path {
+    gap: 7px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+  }
+  .raise-content {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .raise-card {
+    padding: 18px 20px;
+    border-radius: 20px;
+  }
+  .raise-card h3 {
+    font-size: 19px;
+    margin-bottom: 16px;
+  }
+  .raise-card form {
+    gap: 15px;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .field label {
+    font-size: 13px;
+  }
+  .field input,
+  .field select {
+    height: 42px;
+    font-size: 13px;
+  }
+  .field textarea {
+    height: 100px;
+    padding: 12px;
+    font-size: 13px;
+  }
+  .upload-box {
+    height: 95px;
+  }
+  .upload-box svg {
+    font-size: 25px;
+  }
+  .upload-box p {
+    font-size: 13px;
+  }
+  .upload-box small {
+    font-size: 11px;
+  }
+  .btns {
+    margin-top: 5px;
+    justify-content: stretch;
+    gap: 10px;
+  }
+  .reset-btn,
+  .submit-btn {
+    flex: 1;
+    padding: 11px 18px;
+    font-size: 13px;
+  }
+  .tips-card {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .tips-card h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .tips-card ul {
+    gap: 8px;
+    margin-left: 22px;
+  }
+  .tips-card li {
+    font-size: 14px;
+  }
+  .tips-card::after {
+    font-size: 70px;
+    margin-top: 25px;
+  }
+  .Toastify__toast {
+    min-height: 58px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .raise {
+    padding: 0 12px 15px;
+  }
+  .raisecomplaint-path {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  .raise-content {
+    gap: 14px;
+  }
+  .raise-card {
+    padding: 16px;
+    border-radius: 17px;
+  }
+  .raise-card h3 {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .raise-card form {
+    gap: 13px;
+  }
+  .form-row {
+    gap: 13px;
+  }
+  .field label {
+    font-size: 12px;
+    gap: 6px;
+  }
+  .field input,
+  .field select {
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  .field textarea {
+    height: 90px;
+    padding: 11px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  .upload-box {
+    height: 85px;
+    border-radius: 15px;
+  }
+  .upload-box svg {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .upload-box p {
+    font-size: 12px;
+  }
+  .upload-box small {
+    font-size: 10px;
+  }
+  .btns {
+    gap: 8px;
+  }
+  .reset-btn,
+  .submit-btn {
+    padding: 10px 14px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+  .tips-card {
+    padding: 17px;
+    border-radius: 17px;
+  }
+  .tips-card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .tips-card ul {
+    gap: 7px;
+    margin-left: 20px;
+  }
+  .tips-card li {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .tips-card::after {
+    font-size: 55px;
+    margin-top: 20px;
+  }
+  .Toastify__toast {
+    min-height: 55px;
+    font-size: 13px;
+  }
+}

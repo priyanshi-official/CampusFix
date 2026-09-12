@@ -184,3 +184,109 @@
     line-height:1.7;
     font-size:15px;
 }
+
+
+@media (max-width: 768px) {
+  .ab-hero {
+    width: 88%;
+    min-height: auto;
+    padding-top: 110px;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+  }
+  .ab-left {
+    width: 100%;
+  }
+  .ab-left h1 {
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  .ab-left p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: auto;
+  }
+  .ab-right {
+    width: 100%;
+  }
+  .ab-right img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .why {
+    width: 88%;
+    margin: 60px auto;
+  }
+  .why-card {
+    margin-top: 30px;
+    padding: 25px;
+  }
+  .why-card p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .mv {
+    width: 88%;
+    margin: 60px auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .mv-card {
+    padding: 28px 20px;
+  }
+  .mv-card h3 {
+    font-size: 21px;
+  }
+  .mv-card p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .ab-feat {
+    width: 88%;
+    margin: 60px auto;
+  }
+  .ab-feat h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+  .features-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .feature-card {
+    padding: 28px 20px;
+  }
+  .feature-card h3 {
+    font-size: 20px;
+  }
+  .feature-card p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 480px) {
+  .ab-hero {
+    padding-top: 100px;
+    gap: 25px;
+  }
+  .ab-left h1 {
+    font-size: 34px;
+  }
+  .ab-left p {
+    font-size: 14px;
+  }
+  .why-card {
+    padding: 20px;
+  }
+  .mv-card {
+    padding: 25px 18px;
+  }
+  .ab-feat h2 {
+    font-size: 28px;
+  }
+  .feature-card {
+    padding: 25px 18px;
+  }
+}
