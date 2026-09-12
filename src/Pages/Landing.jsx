@@ -24,8 +24,9 @@ function Landing() {
             one centralized platform.</p>
 
           <div className="hero-buttons">
-            <button className="primary-btn" >Get Started</button>
-            <button className="secondary-btn">Learn More</button>
+            {/* <Link to="/signup"> <button className="primary-btn">Get Started </button> </Link> */}
+            <Link to ="/signup"><button className="primary-btn" >Get Started</button></Link>
+           <Link to ="/about"> <button className="secondary-btn">Learn More</button></Link>
           </div>
         </div>
 
