@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import Landing from "./pages/Landing";
-import About from "./pages/About";
+import Landing from "./Pages/Landing";
+import About from "./Pages/About";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup"
 import StudentLayout from "./Layouts/StudentLayout";
